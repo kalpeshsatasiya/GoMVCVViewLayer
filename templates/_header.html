@@ -1,0 +1,24 @@
+<div class="navbar navbar-inverse navbar-fixed-top ">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><strong style=""></strong> H<i class="fa fa-globe"></i>ST
+                <small>IT & HOSTING</small>
+            </a>
+        </div>
+        <div class="navbar-collapse collapse move-me">
+            <ul class="nav navbar-nav navbar-right set-links">
+                <li><a href="index" {{if eq . "index"}}class="active-menu-item"{{end}}>HOME</a></li>
+                <li><a href="about" {{if eq . "about"}}class="active-menu-item"{{end}}>ABOUT</a></li>
+                <li><a href="pricing" {{if eq . "pricing"}}class="active-menu-item"{{end}}>PRICING</a></li>
+                <li><a href="#stats-download" {{if eq . "contact"}}class="active-menu-item"{{end}}>CONTACT</a></li>
+                <li><a href="blank" {{if eq . "blank"}}class="active-menu-item"{{end}}>BLANK</a></li>
+            </ul>
+        </div>
+
+    </div>
+</div>

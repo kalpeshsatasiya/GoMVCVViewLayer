@@ -6,6 +6,7 @@ import (
 	"os"
 	"strings"
 	"bufio"
+	"GoMVCVViewLayer/src/viewmodels"
 )
 
 func main() {
@@ -14,11 +15,18 @@ func main() {
 	http.HandleFunc("/", func(w http.ResponseWriter, req *http.Request) {
 		requestedFile := req.URL.Path[1:]
 
-		template:=templates.Lookup(requestedFile +".html")
+		template := templates.Lookup(requestedFile + ".html")
 
-		if template != nil{
-			template.Execute(w, nil)
-		}else{
+		var context interface{} = nil
+		if requestedFile == "index"{
+			context = viewmodels.GetIndex()
+		} else if requestedFile == "about"{
+			context = viewmodels.GetAboutUs()
+		}
+
+		if template != nil {
+			template.Execute(w, context)
+		}else {
 			w.WriteHeader(404)
 		}
 	})
@@ -30,37 +38,37 @@ func main() {
 */
 	http.ListenAndServe(":8070", nil)
 }
-func  serveResource(w http.ResponseWriter, req *http.Request)  {
+func serveResource(w http.ResponseWriter, req *http.Request) {
 	path := "public" + req.URL.Path
 
 	var contentType string
-  if (strings.HasSuffix(path, ".css")){
-	  contentType = "text/css"
-  } else if (strings.HasSuffix(path, ".png")){
-	  contentType = "image/png"
-  } else if (strings.HasSuffix(path, ".js")){
-	  contentType = "application/javascript"
-  } else if (strings.HasSuffix(path, ".jpg")){
-	  contentType = "image/jpg"
-  } else if (strings.HasSuffix(path, ".woff")){
-	  contentType = "application/x-font-woff"
-  }else if (strings.HasSuffix(path, ".ttf")){
-	  contentType = "application/x-font-ttf"
-  } else if (strings.HasSuffix(path, ".gif")){
-	  contentType = "image/gif"
-  } else {
-	  contentType = "text/plain"
-  }
+	if (strings.HasSuffix(path, ".css")) {
+		contentType = "text/css"
+	} else if (strings.HasSuffix(path, ".png")) {
+		contentType = "image/png"
+	} else if (strings.HasSuffix(path, ".js")) {
+		contentType = "application/javascript"
+	} else if (strings.HasSuffix(path, ".jpg")) {
+		contentType = "image/jpg"
+	} else if (strings.HasSuffix(path, ".woff")) {
+		contentType = "application/x-font-woff"
+	}else if (strings.HasSuffix(path, ".ttf")) {
+		contentType = "application/x-font-ttf"
+	} else if (strings.HasSuffix(path, ".gif")) {
+		contentType = "image/gif"
+	} else {
+		contentType = "text/plain"
+	}
 
 	f, err := os.Open(path)
 
-	if err == nil{
-		defer  f.Close()
+	if err == nil {
+		defer f.Close()
 		w.Header().Add("content-type", contentType)
 
 		br := bufio.NewReader(f)
 		br.WriteTo(w)
-	}else{
+	}else {
 		w.WriteHeader(404)
 	}
 
