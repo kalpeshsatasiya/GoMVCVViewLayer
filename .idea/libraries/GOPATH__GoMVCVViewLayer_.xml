@@ -2,6 +2,7 @@
   <library name="GOPATH &lt;GoMVCVViewLayer&gt;">
     <CLASSES>
       <root url="file://$PROJECT_DIR$/../WebApp" />
+      <root url="file://$PROJECT_DIR$/../go-client" />
       <root url="file://$PROJECT_DIR$/../AppFirstGo" />
       <root url="file://$PROJECT_DIR$/../GoExamples" />
       <root url="file://$PROJECT_DIR$/../gopkg.in" />
@@ -65,6 +66,7 @@
       <root url="file://$PROJECT_DIR$/../FirstGoWebApplication/.git" />
       <root url="file://$PROJECT_DIR$/../golang.org/x/tools/go/ssa/ssautil/testdata" />
       <root url="file://$PROJECT_DIR$/../GoWebWithTemplate/.idea" />
+      <root url="file://$PROJECT_DIR$/../go-client/.idea" />
       <root url="file://$PROJECT_DIR$/../golang.org/x/tools/cmd/stringer/testdata" />
       <root url="file://$PROJECT_DIR$/../GoWebWithTemplate/.git" />
       <root url="file://$PROJECT_DIR$/../github.com/derekparker/delve/dwarf/frame/testdata" />
