@@ -4,6 +4,8 @@ import (
 	"net/http"
 	"html/template"
 	"os"
+	"strings"
+	"bufio"
 )
 
 func main() {
@@ -21,7 +23,47 @@ func main() {
 		}
 	})
 
+	http.HandleFunc("/assets/", serveResource)
+	/*http.HandleFunc("/img/", serveResource)
+	http.HandleFunc("/js/", serveResource)
+	http.HandleFunc("/fonts/", serveResource)
+*/
 	http.ListenAndServe(":8070", nil)
+}
+func  serveResource(w http.ResponseWriter, req *http.Request)  {
+	path := "public" + req.URL.Path
+
+	var contentType string
+  if (strings.HasSuffix(path, ".css")){
+	  contentType = "text/css"
+  } else if (strings.HasSuffix(path, ".png")){
+	  contentType = "image/png"
+  } else if (strings.HasSuffix(path, ".js")){
+	  contentType = "application/javascript"
+  } else if (strings.HasSuffix(path, ".jpg")){
+	  contentType = "image/jpg"
+  } else if (strings.HasSuffix(path, ".woff")){
+	  contentType = "application/x-font-woff"
+  }else if (strings.HasSuffix(path, ".ttf")){
+	  contentType = "application/x-font-ttf"
+  } else if (strings.HasSuffix(path, ".gif")){
+	  contentType = "image/gif"
+  } else {
+	  contentType = "text/plain"
+  }
+
+	f, err := os.Open(path)
+
+	if err == nil{
+		defer  f.Close()
+		w.Header().Add("content-type", contentType)
+
+		br := bufio.NewReader(f)
+		br.WriteTo(w)
+	}else{
+		w.WriteHeader(404)
+	}
+
 }
 
 func populateTemplates() *template.Template {

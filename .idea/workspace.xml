@@ -1,38 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="82e52b18-2e72-4c9f-90a8-785dff2c996b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/assets/fonts/FontAwesome.otf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/assets/fonts/fontawesome-webfont.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/assets/fonts/fontawesome-webfont.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/assets/fonts/fontawesome-webfont.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/assets/fonts/glyphicons-halflings-regular.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/assets/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/assets/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/assets/img/about1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/assets/img/about2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/assets/img/about3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/assets/img/clients.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/assets/img/header.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/assets/img/user.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/assets/img/user2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/video/small.mp4" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/main.go" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/assets/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/assets/css/font-awesome.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/assets/css/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/assets/fonts/fontawesome-webfont.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/assets/fonts/glyphicons-halflings-regular.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/assets/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/assets/js/custom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/html/assets/js/jquery-1.11.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/blank.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/contact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/pricing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/GOPATH__GoMVCVViewLayer_.xml" afterPath="$PROJECT_DIR$/.idea/libraries/GOPATH__GoMVCVViewLayer_.xml" />
+    <list default="true" id="82e52b18-2e72-4c9f-90a8-785dff2c996b" name="Default" comment="Added templates as a view">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/main.go" afterPath="$PROJECT_DIR$/main/main.go" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/html/assets/css/bootstrap.css" afterPath="$PROJECT_DIR$/public/assets/css/bootstrap.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/html/assets/css/font-awesome.css" afterPath="$PROJECT_DIR$/public/assets/css/font-awesome.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/html/assets/css/style.css" afterPath="$PROJECT_DIR$/public/assets/css/style.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/html/assets/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/public/assets/fonts/FontAwesome.otf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/html/assets/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/html/assets/fonts/fontawesome-webfont.svg" afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/html/assets/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/html/assets/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/html/assets/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.eot" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/html/assets/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.svg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/html/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/html/assets/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/public/assets/fonts/glyphicons-halflings-regular.woff" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/html/assets/img/about1.jpg" afterPath="$PROJECT_DIR$/public/assets/img/about1.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/html/assets/img/about2.jpg" afterPath="$PROJECT_DIR$/public/assets/img/about2.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/html/assets/img/about3.jpg" afterPath="$PROJECT_DIR$/public/assets/img/about3.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/html/assets/img/clients.png" afterPath="$PROJECT_DIR$/public/assets/img/clients.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/html/assets/img/header.jpg" afterPath="$PROJECT_DIR$/public/assets/img/header.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/html/assets/img/user.gif" afterPath="$PROJECT_DIR$/public/assets/img/user.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/html/assets/img/user2.png" afterPath="$PROJECT_DIR$/public/assets/img/user2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/html/assets/js/bootstrap.js" afterPath="$PROJECT_DIR$/public/assets/js/bootstrap.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/html/assets/js/custom.js" afterPath="$PROJECT_DIR$/public/assets/js/custom.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/public/html/assets/js/jquery-1.11.1.js" afterPath="$PROJECT_DIR$/public/assets/js/jquery-1.11.1.js" />
     </list>
     <ignored path="GoMVCVViewLayer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -60,21 +53,11 @@
       <file leaf-file-name="main.go" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="30" column="31" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="31" />
+            <state relative-caret-position="353">
+              <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
               <folding>
-                <element signature="e#14#59#0" expanded="true" />
+                <element signature="e#14#79#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/about.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -99,15 +82,15 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/templates/index.html" />
         <option value="$PROJECT_DIR$/main/main.go" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="-7" />
     <option name="width" value="1370" />
-    <option name="height" value="744" />
+    <option name="height" value="735" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -198,10 +181,6 @@
               <option name="myItemId" value="public" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="video" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -214,6 +193,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -243,9 +226,16 @@
     <property name="go.libraries.notification.had.been.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="GO_FMT" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WORK\Projects\GoWorkSpace\src\GoMVCVViewLayer\public" />
+      <recent name="D:\WORK\Projects\GoWorkSpace\src\GoMVCVViewLayer\public\html\assets" />
+      <recent name="D:\WORK\Projects\GoWorkSpace\src\GoMVCVViewLayer\public\html" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WORK\Projects\GoWorkSpace\src\GoMVCVViewLayer\public\html" />
       <recent name="D:\WORK\Projects\GoWorkSpace\src\GoMVCVViewLayer\templates" />
       <recent name="D:\WORK\Projects\GoWorkSpace\src\GoMVCVViewLayer\public" />
     </key>
@@ -537,29 +527,38 @@
       <option name="presentableId" value="Default" />
       <updated>1460825332737</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added templates as a view">
+      <created>1460877670836</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1460877670837</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1370" height="744" extended-state="0" />
+    <frame x="-7" y="0" width="1370" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34717607" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25801528" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39770868" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -571,12 +570,31 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added templates as a view" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added templates as a view" />
+  </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/main/main.go</url>
+          <line>36</line>
+          <properties />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/main/main.go</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="4" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/html/assets/js/custom.js">
+    <entry file="file://$PROJECT_DIR$/public/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="476">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
@@ -584,20 +602,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://C:/Go/src/net/http/server.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-165">
+          <caret line="1930" column="30" selection-start-line="1930" selection-start-column="30" selection-end-line="1930" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="30" column="31" selection-start-line="30" selection-start-column="29" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="353">
+          <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
           <folding>
-            <element signature="e#14#59#0" expanded="true" />
+            <element signature="e#14#79#0" expanded="true" />
           </folding>
         </state>
       </provider>
